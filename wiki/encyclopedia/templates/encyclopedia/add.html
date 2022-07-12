@@ -1,0 +1,20 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    {% if existing %}
+    <div class="alert alert-danger" role="alert">
+        Entry already exists
+    </div>
+    {% endif %}
+    <h1>New Entry</h1>
+    <form action="{% url 'add' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit">
+    </form>
+
+{% endblock %}
