@@ -30,7 +30,6 @@ Online wiki website built using Django where users can create/edit entries.
 - Home: Redirects To Home Page
 - Create New Page: Redirects to Create New Page 
 - Random Page: Opens a random entry from the database
-- 
 ![wiki-navbar](https://user-images.githubusercontent.com/89746098/187104317-694d58c6-79dd-4a88-bf5f-5f5adb771321.jpg)
 
 
