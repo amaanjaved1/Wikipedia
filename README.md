@@ -13,7 +13,6 @@ Online wiki website built using Django where users can create/edit entries.
 ### Future To Implement
 - Add mobile responsiveness
 
-## How To Run
 ### Requirements
 1. Install Python (https://python.org/download/)
 1. Install SetupTools ($ pip install setuptools)
