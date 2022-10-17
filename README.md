@@ -1,4 +1,4 @@
-# Wikipedia Website
+# WikiTech
 Online wiki website built using Django where users can create/edit entries.
 
 ## Description
